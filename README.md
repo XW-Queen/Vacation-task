@@ -23,10 +23,21 @@
 ####
 ![直接插入](https://upload-images.jianshu.io/upload_images/2077144-07154377c7ef3e84.PNG)
 
+### 2. 插入排序—希尔排序（Shell`s Sort）
 
-# Header 1
-## Header 2
-### Header 3
+- 基本思想：先将整个待排序记录序列分割成若干个子序列分别进行直接插入排序，待整个序列中的记录“基本有序”时，再对全体记录进行依次直接插入排序。
+-【注】分割子序列是通过增量因子进行分割的，增量因子选取时，应注意它除了1外没有公因子，且最后一个增量因子必为1。
+####
+![希尔](https://upload-images.jianshu.io/upload_images/2077144-5d740374bdf12582.jpg)
+- 时间复杂度：O（n^1.3）---O(n^1.5)
+- 空间复杂度：O（1）
+- 稳定性：不稳定
+- C语言代码实现
+####
+![希尔排序](https://upload-images.jianshu.io/upload_images/2077144-d7f595f0877ebe51.PNG)
+
+
+
 
 - Bulleted
 - List
