@@ -19,19 +19,19 @@
 - 空间复杂度：O（1）；
 - 稳定性：稳定
 - C语言代码实现：
-####
+
 ![直接插入](https://upload-images.jianshu.io/upload_images/2077144-07154377c7ef3e84.PNG)
 
 ### 2. 插入排序—希尔排序（Shell`s Sort）
 - 基本思想：先将整个待排序记录序列分割成若干个子序列分别进行直接插入排序，待整个序列中的记录“基本有序”时，再对全体记录进行依次直接插入排序。
 【注】分割子序列是通过增量因子进行分割的，增量因子选取时，应注意它除了1外没有公因子，且最后一个增量因子必为1。
-####
+
 ![希尔](https://upload-images.jianshu.io/upload_images/2077144-5d740374bdf12582.jpg)
 - 时间复杂度：O（n^1.3）---O(n^1.5)
 - 空间复杂度：O（1）
 - 稳定性：不稳定
 - C语言代码实现
-####
+
 ![希尔排序](https://upload-images.jianshu.io/upload_images/2077144-d7f595f0877ebe51.PNG)
 
 ### 3. 选择排序—简单选择排序（Simple Selection Sort）
@@ -40,7 +40,7 @@
 - 空间复杂度：O（1）
 - 稳定性：不稳定
 - C语言代码实现
-####
+
 ![](https://upload-images.jianshu.io/upload_images/2077144-97adb0437cb0bb63.PNG)
 
 ### 4. 选择排序—堆排序（Heap Sort）
@@ -52,7 +52,7 @@
 - 空间复杂度：O（1）
 - 稳定性：不稳定
 - C语言代码实现：
-####
+
 ![](https://upload-images.jianshu.io/upload_images/2077144-1f9f26963b67ec88.PNG)
 ![](https://upload-images.jianshu.io/upload_images/2077144-ecd81407e1740188.PNG)
 
@@ -62,7 +62,7 @@
 - 空间复杂度：O（1）
 - 稳定性：稳定
 - C语言代码实现：
- ####
+
  ![](https://upload-images.jianshu.io/upload_images/2077144-4171402f8b080a5e.PNG)
 
  ### 6. 交换排序—快速排序（Quick Sort）
@@ -71,24 +71,24 @@
 2.通过一趟排序讲待排序的记录分割成独立的两部分，其中一部分记录的元素值均比基准元素值小。另一部分记录的 元素值比基准值大。
 3.此时基准元素在其排好序后的正确位置
 4.然后分别对这两部分记录用同样的方法继续进行排序，直到整个序列有序。•时间复杂度：O（nlog2^n）快速排序数据越有序，时间复杂度越大，性能越不好。
-####
+
 ![](https://upload-images.jianshu.io/upload_images/2077144-e6fddeb29cbeae9a.jpg)
 ![](https://upload-images.jianshu.io/upload_images/2077144-2a1063ef6b6e61ae.jpg)
 - 空间复杂度：O（log2^n）
 - 稳定性：不稳定
 - C语言代码实现：
-####
+
 ![](https://upload-images.jianshu.io/upload_images/2077144-e610d27d04d50a8a.PNG)
 
 ### 7. 归并排序（Merge Sort）
 - 基本思想：将两个（或者两个以上）的有序表合并成一个新的有序表，即把待排序序列分为若干个子序列，每个子序列都是有序的。然后再把有序子序列合并为整体有序序列。
-####
+
 ![](https://upload-images.jianshu.io/upload_images/2077144-142c6fe3cc7df2ad.jpg)
 - 时间复杂度：O（nlog2^n）
 - 空间复杂度：O（n）
 - 稳定性：稳定
 - C语言代码实现：
-####
+
 ![](https://upload-images.jianshu.io/upload_images/2077144-6c60ca8a6a985ffc.PNG)
 ![](https://upload-images.jianshu.io/upload_images/2077144-038df22e7facd4b3.PNG)
 ![](https://upload-images.jianshu.io/upload_images/2077144-7f33f1597dd79792.PNG)
@@ -100,7 +100,7 @@
 - 稳定性：稳定
 
 ### 总结
-###
+
 ![](https://upload-images.jianshu.io/upload_images/2077144-9785539c2b812eb4.jpg)
 #### 时间复杂度：
 1. 平方阶(O(n2))排序:直接插入、直接选择和冒泡排序；
