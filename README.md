@@ -1,8 +1,15 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/XW-Queen/Vacation-task/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 数据结构排序算法——内部排序
+### 摘要
+排序是计算机程序设计中的一种重要操作，其功能是对一个数据元素集合或序列重新排列成一个按数据元素某个相知有序的序列。排序分为两类：外排序和内排序。外部排序指的是大文件的排序，即待排序的记录存储在外存储器上，待排序的文件无法一次装入内存，需要在内存和外部存储器之间进行多次数据交换，以达到排序整个文件的目的。内部排序是指待排序列完全存放在内存中所进行的排序过程，适合不太大的元素序列。其中快速排序的是目前排序方法中被认为是最好的方法。
+内部排序方法：
+1. 插入排序—直接插入排序；
+2. 插入排序—希尔排序；
+3. 选择排序—简单选择排序；
+4. 选择排序—堆排序；
+5. 交换排序—冒泡排序；
+6. 交换排序—快速排序；
+7. 归并排序；
+8. 桶排序/基数排序
 
 ### Markdown
 
