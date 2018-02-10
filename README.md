@@ -10,7 +10,7 @@
 6. 交换排序—快速排序；
 7. 归并排序；
 8. 桶排序/基数排序
-!内部排序](https://upload-images.jianshu.io/upload_images/2077144-aacd6a8212ec156d.jpg)
+![内部排序](https://upload-images.jianshu.io/upload_images/2077144-aacd6a8212ec156d.jpg)
 
 ### 1.插入排序—直接插入排序(Straight Insertion Sort)
 
