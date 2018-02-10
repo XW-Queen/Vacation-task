@@ -10,6 +10,7 @@
 6. 交换排序—快速排序；
 7. 归并排序；
 8. 桶排序/基数排序
+!内部排序](https://upload-images.jianshu.io/upload_images/2077144-aacd6a8212ec156d.jpg)
 
 ### 1.插入排序—直接插入排序(Straight Insertion Sort)
 
@@ -18,7 +19,7 @@
 - 空间复杂度：O（1）；
 - 稳定性：稳定
 - C语言代码实现：
-![直接插入](https://upload-images.jianshu.io/upload_images/2077144-aacd6a8212ec156d.jpg)
+![直接插入](https://upload-images.jianshu.io/upload_images/2077144-07154377c7ef3e84.PNG)
 
 
 # Header 1
